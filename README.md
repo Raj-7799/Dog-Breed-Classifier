@@ -1,12 +1,5 @@
 # Dog Breed Classifier
 
-[//]: # (Image References)
-
-[image1]: ./images/sample_dog_output.png "Sample Output"
-[image2]: ./images/vgg16_model.png "VGG-16 Model Keras Layers"
-[image3]: ./images/vgg16_model_draw.png "VGG16 Model Figure"
-
-
 ## Project Overview
 
 The project focuses on building a pipeline to process real-world, user-supplied images. Given an image of a dog, the algorithm identifies the canine's breed.
@@ -59,32 +52,32 @@ The algorithm implementation is done using CNN models for classification.
 ### Sample 1 : Irish Water Spaniel
 ### The algorithm detects that the image contains a dog and the CNN correctly recognizes the dog's breed.
 
-[Irish Water Spaniel]: ./images/Correct_Matches.png "VGG16 Model Figure"
+![Irish Water Spaniel](/images/Correct_Matches.png)
 
 ### Sample 2 : Labroader Retriever
 ### The algorithm detects that the image contains a dog and the CNN correctly recognizes the dog's breed.
 
-[Labroader Retriever]: ./images/Correct_Matches_2.png "VGG16 Model Figure"
+![Labroader Retriever](/images/Correct_Matches_2.png)
 
 
 ### Sample 3 : Human Subject
 ### The algorithm detects that the image contains a human and the CNN tries to find a dog's breed resembling the human.
 
-[Human Subject]: ./images/Human_example_1.png "VGG16 Model Figure"
+![Human Subject](/images/Human_example_1.png)
 
 
 ### Sample 4 : Human Subject
 ### The algorithm detects that the image contains a human and the CNN tries to find a dog's breed resembling the human.
 
-[Human Subject 2]: ./images/Human_example_2.png "VGG16 Model Figure"
+![Human Subject 2](/images/Human_example_2.png)
 
 
 ### Sample 5 : Picture of cat resembling dog
 ### The detection algorithm thinks that the picture contains a dog. Furthermore, the CNN finds a dog breed resembling the cat.
 
-[Incorrect Sample]: ./images/Algorithm_Incorrect.png "VGG16 Model Figure"
+![Incorrect Sample](/images/Algorithm_Incorrect.png)
 
 ### Sample 6 : Picture of dog outside of dataset
 ### The algorithm detects that the image contains a dog but the CNN is not able to find it's corresponding breed as it belongs outside the dataset.
 
-[Incorrect Sample]: ./images/Algorithm_Miss.png "VGG16 Model Figure"
+![Incorrect Sample](/images/Algorithm_Miss.png)
